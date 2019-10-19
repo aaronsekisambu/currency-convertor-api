@@ -1,0 +1,45 @@
+{
+  "name": "currency-convertor-api",
+  "version": "1.0.0",
+  "description": "A simple currency conventor",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.6.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.5.1",
+    "express": "^4.17.1",
+    "node": "^12.12.0",
+    "nodemon": "^1.19.4",
+    "pg": "^7.12.1",
+    "sequelize": "^5.19.8",
+    "sinon": "^7.5.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "mocha": "^6.2.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon ./index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronsekisambu/currency-convertor-api.git"
+  },
+  "author": "Aaron Sekisambu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronsekisambu/currency-convertor-api/issues"
+  },
+  "homepage": "https://github.com/aaronsekisambu/currency-convertor-api#readme"
+}
